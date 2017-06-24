@@ -1,1 +1,13 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-menu [content]=NAV>
+    <ion-content>
+        <img src="assets/images/img-fondo.jpg" alt="">
+        <ion-list>
+            <button ion-item *ngFor="let pagina of paginas" (click)="SendPage(pagina.componente)" menuClose>
+                <ion-icon item-left name="{{ pagina.icono }}"></ion-icon>
+                {{ pagina.titulo }}</button>                    
+           
+        </ion-list>
+    </ion-content>
+</ion-menu>
+
+<ion-nav #NAV [root]="rootPage"></ion-nav>

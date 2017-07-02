@@ -26,7 +26,8 @@ export class MyApp {
       {titulo: 'Inicio',      componente: InicioPage,   icono: 'home'},
       {titulo: 'Personas',    componente: PersonsPage , icono: 'people'},
       {titulo: 'Contacto',    componente: ContactoPage, icono: 'mail-open'},
-      {titulo: 'Información', componente: AcercaPage,   icono: 'information-circle'}
+      {titulo: 'Información', componente: AcercaPage,   icono: 'information-circle'},
+      {titulo: 'Acerca De',   componente: 'xxxxxxxxx',   icono: 'information-circle'}
 
     ];
 
